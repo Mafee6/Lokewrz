@@ -1,0 +1,2 @@
+# Lokewrz
+Lokewrz Language
