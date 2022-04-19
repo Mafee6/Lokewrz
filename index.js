@@ -1,6 +1,6 @@
 (async () => {
-    const json = await (await fetch("/lang/lokewrz.json")).json();
-    const svg = await (await fetch("/icons/LokewrzLangChars.svg")).text();
+    const json = await (await fetch("lang/lokewrz.json")).json();
+    const svg = await (await fetch("icons/LokewrzLangChars.svg")).text();
     let txt = document.createElement("h");
     txt.innerHTML = svg;
     document.querySelector(".letters .list").appendChild(txt);
